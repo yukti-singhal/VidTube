@@ -1,0 +1,6 @@
+<div className="side-link">
+            <img src={home} alt="" />
+            <p>Home</p>
+        </div>
+
+        
