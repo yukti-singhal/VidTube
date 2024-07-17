@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# YouTube Clone - React.js + Vite Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project
+This VidTube is a clone of YouTube made by using React.js. The data is rendered by YouTube Data API which allows users to watch videos, browse according different categories, browse through recommendations.
 
-## Available Scripts
+<!-- GETTING STARTED -->
+## Getting Started
+To begin using VidTube, follow these simple steps:
 
-In the project directory, you can run:
+### Prerequisites
+Before getting started with VidTube, ensure that you have the following prerequisites installed and set up:
+* Install Node.js (globally)
+  ```sh
+  npm install npm@latest -g
+  ```
+  
+# Setup Documentation
 
-### `npm start`
+## Clone The Project
+git clone https://github.com/yukti-singhal/VidTube.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install Frontend
+cd Doctor-Appointment
+- npm install
+- npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup Data API Key-
+1. Open YouTube Data API Overview by using the URL: https://developers.google.com/youtube/v3/getting-started.
+2. Login to your Google Account and click on API Console.
+3. Click on API's and Services then on credentials.
+4. Now click on "CREATE CREDENTIALS" and select API Key.
+5. Copy the API Key created and paste it in data.js file in the src folder.
 
-### `npm test`
+Happy coding! 🚀
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### What Technology Are Using In This Project
 
-### `npm run build`
+**Frontend Technology Stack:** 
+- **React**: A JavaScript library for building user interfaces, offering a component-based architecture for creating interactive UIs.
+- **Redux Toolkit:** A state management library for React applications, providing predictable state management with a single source of truth.
+- **Vite: Vite is a local development server. It has support for TypeScript and JSX. It uses Rollup and esbuild internally for bundling.
+- **CSS: Cascading Style Sheets for styling and responsiveness.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ## Project Screenshot
+![image](https://github.com/user-attachments/assets/787238be-ae1b-444e-8156-016a57dc0d70)
+![image](https://github.com/user-attachments/assets/d6feb054-50ca-43e9-b334-fbfb6f279c33)
+![image](https://github.com/user-attachments/assets/5be451fb-a255-4524-9296-81838b97fa02)
+![image](https://github.com/user-attachments/assets/3f1efae1-db50-4cfc-82db-e7a986d10165)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Fork the repository by clicking the "Fork" button on the top right corner of the project's GitHub page. This will create a copy of the project in your own GitHub account.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Clone the forked repository to your local machine by running the command ``` git clone https://github.com/your-username/online-doctor-appointment.git ``` in your terminal.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install the project's dependencies by running npm install or yarn install in the project's root directory.
+Create a new branch for your changes by running the command ``` git checkout -b branch-name ```, where branch-name is a descriptive name for your branch.
+Make your desired changes to the code.
 
-## Learn More
+4. Test your changes locally by running npm start or yarn start and accessing the project in your web browser at ``` http://localhost:3000 ``` or another specified URL.
+5. Add and commit your changes to your local repository by running the command git add . followed by ``` git commit -m "Your commit message here" ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+6. Push your changes to your forked repository by running the command ``` git push origin branch-name ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Create a pull request (PR) by navigating to your forked repository on GitHub and clicking the "New pull request" button. Make sure that the base branch is set to the original project's branch that you want to contribute to, and the head branch is set to your forked repository's branch that contains your changes.
 
-### Code Splitting
+8. Write a descriptive title and message for your pull request, explaining the changes you made and why they should be merged.
+Wait for the project's maintainers to review your pull request and provide feedback. You may be asked to make further changes or address any issues before your changes are merged.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+9. Once your pull request is approved and merged, your changes will become part of the project. Congratulations, you have successfully contributed to the project!
 
-### Analyzing the Bundle Size
+Thank you for considering this project. If you have any questions, please do not hesitate to contact me.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Me
+https://www.linkedin.com/in/yukti-singhal-b8a04a256/
