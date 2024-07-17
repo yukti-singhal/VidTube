@@ -32,7 +32,7 @@ cd Doctor-Appointment
 5. Copy the API Key created and paste it in data.js file in the src folder.
 
 Happy coding! 🚀
-```
+
 
 #### What Technology Are Using In This Project
 
