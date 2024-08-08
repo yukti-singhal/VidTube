@@ -20,7 +20,7 @@ Before getting started with VidTube, ensure that you have the following prerequi
 git clone https://github.com/yukti-singhal/VidTube.git
 
 ### Install Frontend
-cd Doctor-Appointment
+cd VidTube
 - npm install
 - npm start
 
